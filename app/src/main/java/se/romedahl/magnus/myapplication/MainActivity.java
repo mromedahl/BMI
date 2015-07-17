@@ -13,7 +13,7 @@ import android.view.View;
 
 public class MainActivity extends ActionBarActivity {
 
-    private static final String TAG = "MyMessage";
+    // private static final String TAG = "MyMessage";
 
     EditText tvLength;
     EditText tvWeight;
@@ -32,7 +32,7 @@ public class MainActivity extends ActionBarActivity {
         btnCalculate = (Button) findViewById(R.id.buttonCalculate);
         tvBMI = (TextView) findViewById(R.id.textResult);
 
-        Log.i(TAG, "onCreate");
+        // Log.i(TAG, "onCreate");
     }
 
 
